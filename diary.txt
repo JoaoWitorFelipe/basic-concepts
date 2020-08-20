@@ -1,0 +1,18 @@
+My Programming Diary
+
+Hi, my name is Joao Witor Felipe;
+Today I'm starting with my diary in English (I'm praticing in this diary);
+
+Ok, let's go!
+
+19-ago-2020
+I studied programming functional concepts;
+
+Today I learned a little about point-free annotation and function composition;
+Reinforced some knowledge, for example: immutability, functions pure and a little bit referential transparency;
+
+There was no pratice, just concepts, I'm following this tutorial about programming functional: https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536
+
+
+
+
