@@ -5,7 +5,7 @@ Today I'm starting with my diary in English (I'm praticing in this diary);
 
 Ok, let's go!
 
-19-ago-2020
+----------19-ago-2020----------
 I studied programming functional concepts;
 
 Today I learned a little about point-free annotation and function composition;
@@ -13,6 +13,35 @@ Reinforced some knowledge, for example: immutability, functions pure and a littl
 
 There was no pratice, just concepts, I'm following this tutorial about programming functional: https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536
 
+----------20-ago-2020----------
 
+Okay, today I learned many things;
+Let's go one at a time:
+    -> Curried Function
+	A Curried Function is a function that only takes a single parameter at a time; 
+     	This works together with the composition functions;
+	Curried function helps a lot because of refactoring;
+	When we create great functions, stay easy to refactor later
+	because we can reduce to small functions with just one parameter;
+
+    -> Common Functional Functions
+	In functional programming there are no loop builders;
+	Then came the common functions that are the map, filter and reduce;
+ 
+    -> Referential Transparency
+	Jesus, this is very cool, I can represent my function with another
+	expression where the value is equivalent, it is very satisfactory;
+	It really makes me more comfortable!!!
+
+    -> Execution Order
+	Okay, this is still a little confusing, because of multi/single thread, but the important is 
+	thing is that the function is pure and independent;
+	
+    -> Type Annotations 
+	In this topic, I learned about data types, but it was easier to understand; 
+
+And all of that is what I learned today, it was a lot of thing;
+And tommorrow, I will venture to Clojure to pratice everything that has been learned; 
+So, see you tommorrow!!!
 
 
