@@ -45,3 +45,13 @@ And tommorrow, I will venture to Clojure to pratice everything that has been lea
 So, see you tommorrow!!!
 
 
+----------21-ago-2020----------
+
+Hello guys, how are you?
+
+Well, today is a great day, I programmed in Clojure :D;
+This is weird, but the more I read and pratice, the more sense it makes;
+I did simple things like: addition, division and multiplication;
+And also, I learned functions like "doc (parameter)" which shows me the documentation for some other function;
+And that whas my day, really Clojure is weird, but really cool at the same time;
+
