@@ -8,7 +8,7 @@ Ok, let's go!
 ----------19-ago-2020----------
 I studied programming functional concepts;
 
-Today I learned a little about point-free annotation and function composition;
+Today I learned a little about point-free notation and function composition;
 Reinforced some knowledge, for example: immutability, functions pure and a little bit referential transparency;
 
 There was no pratice, just concepts, I'm following this tutorial about programming functional: https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536
@@ -54,4 +54,19 @@ This is weird, but the more I read and pratice, the more sense it makes;
 I did simple things like: addition, division and multiplication;
 And also, I learned functions like "doc (parameter)" which shows me the documentation for some other function;
 And that whas my day, really Clojure is weird, but really cool at the same time;
+
+
+----------23-ago-2020----------
+
+Good morning, afternoon, night :D 
+
+Really, Clojure is cool! Today I learned to declare functions;
+Below is a general list of what I learned about functions in Clojure:
+	- Pass parameter, it was easy;
+	- Arity, this is really cool!Passing a number of different parameter and doing different things is really cool!;
+	- Ready-made functions, wich are constantly (return a function that receive N parameters and return only one) and identity (wich return only the first parameter of the function)
+
+Finally, I'm very happy because I managed to solve some Clojure exercises; 
+I was wrong in some syntax, but it was really cool; 
+
 
