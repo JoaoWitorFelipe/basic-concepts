@@ -69,4 +69,13 @@ Below is a general list of what I learned about functions in Clojure:
 Finally, I'm very happy because I managed to solve some Clojure exercises; 
 I was wrong in some syntax, but it was really cool; 
 
+----------24-ago-2020----------
+
+I'm very angry!
+Bro, I was solving a Clojure exercise that is about "applying function" and I was able to solve it, but I couldn't understand some thing, well I questioned my brother-in-law and I hope for an answer;
+
+And that was it for today, good night!
+
+
+
 
