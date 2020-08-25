@@ -39,5 +39,8 @@
 ;(defn fnParam [] (prn "triplicate"))
 ;(triplicate fnParam)
 
+;8)
+(defn opposite [f] 
+  (fn [& args] (not (apply f args))))
 
 
