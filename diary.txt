@@ -76,6 +76,13 @@ Bro, I was solving a Clojure exercise that is about "applying function" and I wa
 
 And that was it for today, good night!
 
+----------25-ago-2020----------
 
+Okay, today I'm very happy :D 
+Because I managed to understand a little better about "applying function" in Clojure;
+
+And the best part is that I managed to solve an exercise that my brother-in-law gave me to fix the "applying function"!
+
+Yes, currently my brother-in-law/godfather (Rahony Goulart Ricardo) is my source of inspiration to always want to improve, so I ask for a lot of help and suggestions about everything for him :D 
 
 
