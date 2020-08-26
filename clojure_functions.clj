@@ -41,6 +41,10 @@
 
 ;8)
 (defn opposite [f] 
-  (fn [& args] (not (apply f args))))
+  (fn [& args] (apply f args)))
+
+(def opposite-closure (opposite not))
+
+(prn (opposite-closure false))
 
 
