@@ -85,4 +85,13 @@ And the best part is that I managed to solve an exercise that my brother-in-law 
 
 Yes, currently my brother-in-law/godfather (Rahony Goulart Ricardo) is my source of inspiration to always want to improve, so I ask for a lot of help and suggestions about everything for him :D 
 
+----------26-ago-2020----------
+
+Today I solved some exercise of Clojure and I feels that I can read the Clojure syntax a little better;
+Not much, but it becomes more evident to me!
+And more and more I feel satisfied with what I'm learning, functional programming is really interesting;
+My idea is to finish the Clojure exercises to build some application for put into pratice what I learned;
+I think that's it, good night;
+
+
 
