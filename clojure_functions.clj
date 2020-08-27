@@ -40,11 +40,22 @@
 ;(triplicate fnParam)
 
 ;8)
-(defn opposite [f] 
-  (fn [& args] (apply f args)))
+;(defn opposite [f] 
+;  (fn [& args] (apply f args)))
+;(def opposite-closure (opposite not))
+;(prn (opposite-closure false))
 
-(def opposite-closure (opposite not))
+;9)
+;(defn triplicate2 [f & args] (triplicate f))
+;(triplicate2 #(prn "triplicate2"))
 
-(prn (opposite-closure false))
+;10)
+(prn (Math/cos Math/PI))
+(defn math [x] (+ (Math/pow (Math/sin x) 2) (Math/pow (Math/cos x) 2)))
+ 
+(prn (math 10))
+
+
+
 
 
