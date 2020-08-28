@@ -93,5 +93,16 @@ And more and more I feel satisfied with what I'm learning, functional programmin
 My idea is to finish the Clojure exercises to build some application for put into pratice what I learned;
 I think that's it, good night;
 
+----------27-ago-2020----------
+
+Well, I'm very happy today, because I finished the Clojure documentation part about functions and my gamer chair arrived :D; 
+
+I'm thinking about tomorrow, what I'm going to learn, it will probably be about "sequential collection", yes in Clojure;
+
+And I'm feeling that my English has improved a little bit, a little bit;
+
+Okay, that's it, I'll see you tomorrow in that same repository :P, good night!
+
+
 
 
