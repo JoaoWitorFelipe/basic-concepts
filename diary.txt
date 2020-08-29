@@ -108,8 +108,14 @@ Okay, that's it, I'll see you tomorrow in that same repository :P, good night!
 Today I learned a little bit about "sequential collections" in Clojure, it was more related to manipulating vectors and lists;
 Nothing advanced, but is very interesting!
 
-And I'm talked to my brother-in-law, because I want to build a system in Clojure and he recommended me to make an API.
+And I'm talked to my brother-in-law, because I want to build a system in Clojure and he recommended me to make an API;
 
 So, I had the brilliant idea in build an app in Flutter (my other passion) to consume this API in Clojure;
 So, wait... :D
+
+----------29-ago-2020----------
+
+Today I quickly learned about "Hashed Collections" like Sets and Maps;
+And I had some ideas for the API (Clojure) with the app (Flutter);
+I hope to start something this week; 
 
