@@ -119,3 +119,9 @@ Today I quickly learned about "Hashed Collections" like Sets and Maps;
 And I had some ideas for the API (Clojure) with the app (Flutter);
 I hope to start something this week; 
 
+----------31-ago-2020----------
+
+Today I learned a little about testing in Clojure;
+It is not difficult, but I need to learn some concepts about tests like TDD;
+And today, I started with the API, I'm having problems with the datbase, but I believe that tomorrow I managed to solve it;
+Good night :D;
