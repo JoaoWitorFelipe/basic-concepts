@@ -123,5 +123,17 @@ I hope to start something this week;
 
 Today I learned a little about testing in Clojure;
 It is not difficult, but I need to learn some concepts about tests like TDD;
-And today, I started with the API, I'm having problems with the datbase, but I believe that tomorrow I managed to solve it;
+And today, I started with the API, I'm having problems with the database, but I believe that tomorrow I managed to solve it;
 Good night :D;
+
+----------01-set-2020----------
+
+New month started :fireworks: :D;
+Today I was preparing the API, I made a simple user API; 
+And DockerHub's MySQL container saved my day today, Docker is awesome!!!;
+I had some API connection problems in Clojure with the database but tomorrow I will solve; 
+
+
+
+
+
