@@ -133,7 +133,11 @@ Today I was preparing the API, I made a simple user API;
 And DockerHub's MySQL container saved my day today, Docker is awesome!!!;
 I had some API connection problems in Clojure with the database but tomorrow I will solve; 
 
+----------02-set-2020----------
 
+Today I fixed the bug when the API connected to the database;
+For some reason, it is giving me error when returning the API response.
+Well, I'll solve this tomorrow; 
 
 
 
