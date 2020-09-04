@@ -139,5 +139,9 @@ Today I fixed the bug when the API connected to the database;
 For some reason, it is giving me error when returning the API response.
 Well, I'll solve this tomorrow; 
 
+----------03-set-2020----------
 
+Well well, somebody finally managed to finish a CRUD on an API in Clojure; 
+Yes!! I got it!
+Now, I need to learn about project architecture in Clojure for API and about tests using Leiningen; 
 
