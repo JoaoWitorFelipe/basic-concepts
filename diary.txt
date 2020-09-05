@@ -145,3 +145,11 @@ Well well, somebody finally managed to finish a CRUD on an API in Clojure;
 Yes!! I got it!
 Now, I need to learn about project architecture in Clojure for API and about tests using Leiningen; 
 
+----------04-set-2020----------
+
+Ok, today I didn't learn many things;
+But I was trying to build an architecture in my project in Clojure;
+I made progress, but I need to improve!
+
+
+
