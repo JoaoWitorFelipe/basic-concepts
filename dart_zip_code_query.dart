@@ -25,37 +25,24 @@ class ZipCodeModel {
 }
 
 abstract class SearchZipCode {
-  final String zipCode;
-  SearchZipCode(this.zipCode);
-
   final client = HttpClient();
-  String url;
-
-  Uri get _getUri => Uri.parse(url);
+  String getUrl(String zipCode);
 
   ZipCodeModel convertData(Map<String, dynamic> json);
 
-  Future<ZipCodeModel> search() async {
-    final client = HttpClient();
-
-    final request = await client.getUrl(_getUri);
-    request.close();
-
-    final response = await request.done;
+  Future<ZipCodeModel> search(String zipCode) async {
+    final _uri = Uri.parse(getUrl(zipCode));
+    final request = await client.getUrl(_uri);
+    final response = await request.close();
 
     ZipCodeModel searchZipCodeModel;
-    response.transform(utf8.decoder).listen((jsonEncoded) {
-      // No arrive here =(
-      searchZipCodeModel = convertData(json.decode(jsonEncoded));
-    });
-
-    return searchZipCodeModel;
+    final responseTransformed = response.transform(utf8.decoder);
+    return convertData(json.decode(await responseTransformed.first));
   }
 }
 
 class ViaCep extends SearchZipCode {
-  ViaCep(String zipCode) : super(zipCode);
-  String get url => 'http://viacep.com.br/ws/$zipCode/json/';
+  String getUrl(String zipCode) => 'http://viacep.com.br/ws/$zipCode/json/';
 
   @override
   ZipCodeModel convertData(Map<String, dynamic> json) {
@@ -70,8 +57,7 @@ class ViaCep extends SearchZipCode {
 }
 
 class WsApiCep extends SearchZipCode {
-  WsApiCep(String zipCode) : super(zipCode);
-  String get url => 'https://ws.apicep.com/cep/$zipCode.json';
+  String getUrl(String zipCode) => 'https://ws.apicep.com/cep/$zipCode.json';
 
   @override
   ZipCodeModel convertData(Map<String, dynamic> json) {
@@ -93,12 +79,12 @@ String _getInputFromConsole() {
 }
 
 Future<ZipCodeModel> makeMultipleQueries(String _zipCode) async {
-  final SearchZipCode viaCep = ViaCep(_zipCode);
-  final SearchZipCode wsApiCep = WsApiCep(_zipCode);
+  final SearchZipCode viaCep = ViaCep();
+  final SearchZipCode wsApiCep = WsApiCep();
 
   final zipCodeModel = await Future.any([
-    viaCep.search(),
-    wsApiCep.search(),
+    viaCep.search(_zipCode),
+    wsApiCep.search(_zipCode),
   ]);
 
   print(zipCodeModel.toJson);
